@@ -8,6 +8,8 @@ Add text on popular memes, save to camera roll. built with Expo.
 
 https://expo.io/@sonnylazuardi/meme-generator
 
+![demo](https://media.giphy.com/media/xUOrwqF7iE3lExBvws/giphy.gif)
+
 # Running
 
 ```
