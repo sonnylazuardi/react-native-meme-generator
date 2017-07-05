@@ -55,8 +55,8 @@ export default class HomeScreen extends React.Component {
         <View style={{height: 50}}>
           <Image source={require('../assets/images/header.png')} resizeMode={'contain'} style={{width: null, height: null, flex: 1}}/>
         </View>
-        <TextInput style={styles.input} value={top} onChangeText={(top) => this.setState({top})} placeholder={'Input top text here'} />
-        <TextInput style={styles.input} value={bottom} onChangeText={(bottom) => this.setState({bottom})} placeholder={'Input bottom text here'} />
+        <TextInput underlineColorAndroid={'transparent'} style={styles.input} value={top} onChangeText={(top) => this.setState({top})} placeholder={'Input top text here'} />
+        <TextInput underlineColorAndroid={'transparent'} style={styles.input} value={bottom} onChangeText={(bottom) => this.setState({bottom})} placeholder={'Input bottom text here'} />
         <View style={{flex: 1}}>
           <MasonryList
             data={memes}
